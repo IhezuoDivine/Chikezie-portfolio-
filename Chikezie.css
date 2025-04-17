@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: white;
+}
+:root{
+  --bg-color:black;
+  --text-color:white;
+  --hover-color: hsl(225, 73%, 57%);
+}
+body{
+  background-color: black;
+}
+.myheader{
+  display: block;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+  height: 140px;
+  background-color: hsl(0, 0%, 5%);
+  cursor: pointer;
+  z-index: 100;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  font-size:30px;
+  font-weight: bold;
+}
+.logo img{
+  height: 62px;
+  width: 50px;
+  margin-right: -8px;
+}
+.myheader a{
+  font-size: 20px;
+}
+nav a{
+  margin-right: 10px;
+}
+nav{
+  padding-bottom: 10px;
+}
+#contact{
+  margin-right: 10px;
+}
+.headercon a{
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.myheader a:hover{
+  color: hsl(225, 73%, 57%);
+}
+.myheader a:active{
+  color: hsl(225, 73%, 77%);
+}
+@media (min-width:750px){
+  .myheader{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height:80px;
+  }
+  nav{
+    padding: 0;
+  }
+  #home{
+    padding-top: 80px;
+  }
+}
+@media (max-width:400px){
+  .myheader{
+    flex-direction: column;
+    align-items: center;
+  }
+  .home{
+    padding-top: 80px;
+  }
+}
+.home{
+  display: block;
+  padding-top: 160px;
+  padding-bottom:5%;
+}
+.homepageimg{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+.chikezieimg{
+  height: 150px;
+}
+.landingpageimg{
+  height: 200px;
+  border-radius: 0 0 0 10px;
+}
+.ecomweb{
+  height: 250px;
+  border-radius: 0 0 0 10px;
+}
+.homepageimg img{
+  flex:1;
+  object-fit: cover;
+  overflow: hidden;
+}
+@media (min-width: 700px) {
+  .chikezieimg{
+    height: 180px;
+  }
+  .landingpageimg{
+    height: 200px;
+  }
+  .ecomweb{
+    height: 250px;
+  }
+}
+
+.home p{
+  margin-top:-30px;
+  margin-left: 5%;
+}
+.homepagecontainer{
+  margin: 5%;
+  display: block;
+}
+.homepageintro{
+  font-size: 2.5rem;
+}
+.homepageexplane{
+  margin-top: 15%;
+}
+.homepageexplane p{
+  margin-bottom: 8%;
+}
+.homepageletdiscuss{
+  margin-left: 3%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+@media (min-width:750px){
+  .homepagecontainer{
+    display:flex;
+    justify-content:space-between;
+    margin: 5%;
+  }
+  .homepageexplane{
+    margin-top: 8%;
+    margin-left: 8%;
+  }
+}
+.extention{
+  display: block;
+  margin: 5%;
+}
+.homepageextention{
+  margin-bottom: 5%;
+}
+.extentionletsdiscuss{
+  padding:10px ;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.extentionimg{
+  width: 380px;
+  height: 200px;
+}
+@media(min-width:750px){
+  .homepageextention{
+    display: flex;
+    justify-content: space-between;
+  }
+  .homepageextention{
+    margin-bottom: -5%;
+  }
+}
+.extentionbox2 h4{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid white;
+}
+.extentionbox2 a{
+  float: right;
+}
