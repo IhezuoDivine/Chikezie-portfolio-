@@ -73,7 +73,7 @@ nav{
   display:block;
 }
 .menubar{
-  color: green;
+  color: white;
   font-size:3rem !important;
 }
 #close{
@@ -82,18 +82,18 @@ nav{
   margin: 10px 40%;
   border-radius: 50%;
   font-size: 3rem;
-  color: green;
+  color: white;
   font-weight: bolder;
 }
 #close:hover{
-  color: blue;
+  color: hsl(0, 0%, 45%);
   background-color: hsl(0, 0%, 15%);
 }
 .myheader a:hover{
-  color: hsl(225, 73%, 57%);
+  color: hsl(0, 0%, 45%);
 }
 .myheader a:active{
-  color: hsl(225, 73%, 77%);
+  color: hsl(0, 0%, 77%);
 }
 @media (min-width:750px){
   .myheader{
@@ -289,7 +289,58 @@ nav{
 .webdesign, .webdev, .branding{
   padding-bottom: 5%;
 }
-iframe{
-  height: 100vh;
-  width: 100vw;
+
+
+
+
+
+
+.thefooter{
+  background: hsl(0, 0%, 15%);
+}
+.footertable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 5%;
+}
+@media(min-width:750px) {
+  .footertable{
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+  }
+}
+.thefooter a i{
+  color: green;
+}
+.thefooter a i:hover{
+  color:black;
+}
+.footernavbar a:hover{
+  color: black;
+}
+.footernavbar{
+  margin-left: 5%;
+  padding-top: 5%;
+}
+.social-icons{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+  padding:10px 1px;
+  font-size: 1.5rem;
+  color: green;
+}
+.copyright{
+  text-align: center;
+  align-items: center;
+  padding: 5px 0;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 15%);
 }
