@@ -204,13 +204,10 @@ nav{
   .myname{
     padding-top:-5;
   }
-}
+} 
 .extention{
   display: block;
   margin: 5%;
-}
-.homepageextention{
-  margin-bottom: 5%;
 }
 .extentionletsdiscuss{
   padding:10px ;
@@ -220,23 +217,41 @@ nav{
 .extentionimg{
   width: 380px;
   height: 300px;
+  margin-bottom: 5%;
 }
 @media(min-width:750px){
   .homepageextention{
     display: flex;
     justify-content: space-between;
   }
-  .homepageextention{
+  .extentionimg{
     margin-bottom: -5%;
   }
 }
-.extentionbox2 h4{
+.extention11{
+  width: 100%;
+  margin-bottom: 5%;
+}
+.extentionbox2{
+  width: 100%;
+}
+
+.extentionbox4{
+  display: flex;
+  justify-content: space-between;
+}
+
+#extentionbox3{
   padding-top: 5%;
   padding-bottom: 5%;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid white ;
 }
-.extentionbox2 a{
-  float: right;
+.extentionspan2{
+  display:none;
+}
+:target ~ .extentionspan2 {
+  display: block;
+  margin-top: 50%;
 }
 .featurework{
   margin: 5%;
@@ -273,4 +288,8 @@ nav{
 }
 .webdesign, .webdev, .branding{
   padding-bottom: 5%;
+}
+iframe{
+  height: 100vh;
+  width: 100vw;
 }
