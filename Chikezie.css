@@ -195,7 +195,7 @@ nav{
   border-radius: 50px;
 }
 .homepageletdiscuss:hover{
-  color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 45%);
 }
 @media (min-width:750px){
   .homepagecontainer{
@@ -209,6 +209,9 @@ nav{
   }
   .myname{
     padding-top:-5;
+  }
+  .home{
+    margin-bottom: -7%;
   }
 } 
 .aboutme{
@@ -261,7 +264,7 @@ nav{
   border-radius: 50px;
 }
 .extentionletsdiscuss:hover{
-  color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 45%);
 }
 .extentionimg{
   width: 380px;
@@ -286,7 +289,7 @@ nav{
   margin-bottom: 5%;
 }
 .extentionspan1 a:hover{
-  color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 45%);
 }
 .extentionbox2{
   width: 100%;
@@ -332,7 +335,7 @@ nav{
   padding: 5px;
 }
 .featureworkbox1 a:hover{
-  color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 45%);
 }
 @media (min-width:750px){
   .featureworkcontainer{
@@ -548,6 +551,6 @@ textarea{
 }
 .copyright p{
   font-size: 10px;
-  padding-top: 3%;
+  padding-top: 1%;
   margin-bottom: 1%;
 }
