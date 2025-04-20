@@ -125,6 +125,9 @@ nav{
   :target ~ .headercon{
     display: flex;
   }
+  .homepageimg{
+    margin-bottom: -10%;
+  }
 }
 @media (max-width:400px){
   .myheader{
@@ -191,6 +194,9 @@ nav{
   border: 1px solid white;
   border-radius: 50px;
 }
+.homepageletdiscuss:hover{
+  color: hsl(0, 0%, 15%);
+}
 @media (min-width:750px){
   .homepagecontainer{
     display:flex;
@@ -207,6 +213,7 @@ nav{
 } 
 .aboutme{
   display: none;
+  margin: 5%;
 }
 .aboutmecontainer h1{
   padding-top: 10px;
@@ -232,7 +239,7 @@ nav{
 }
 .aboutmebox3{
   border: 1px solid hsl(0, 0%, 45%);
-  margin-bottom: 5%;
+  margin: 5%;
   border-radius: 20px;
   padding: 10% 5px;
 }
@@ -253,6 +260,9 @@ nav{
   border: 1px solid white;
   border-radius: 50px;
 }
+.extentionletsdiscuss:hover{
+  color: hsl(0, 0%, 15%);
+}
 .extentionimg{
   width: 380px;
   height: 300px;
@@ -265,11 +275,18 @@ nav{
   }
   .extentionimg{
     margin-bottom: -5%;
+    width: 450px;
+  }
+  .extentionbox1 p{
+    font-size: 25px;
   }
 }
 .extention11{
   width: 100%;
   margin-bottom: 5%;
+}
+.extentionspan1 a:hover{
+  color: hsl(0, 0%, 15%);
 }
 .extentionbox2{
   width: 100%;
@@ -290,7 +307,7 @@ nav{
 }
 :target ~ .extentionspan2 {
   display: block;
-  margin-top: 50%;
+  margin-top: 20%;
 }
 .featurework{
   margin: 2%;
@@ -313,6 +330,9 @@ nav{
   border: 1px solid white;
   border-radius: 50px;
   padding: 5px;
+}
+.featureworkbox1 a:hover{
+  color: hsl(0, 0%, 15%);
 }
 @media (min-width:750px){
   .featureworkcontainer{
@@ -359,6 +379,9 @@ nav{
   .servicebox1{
     width: 32%;
   }
+  .servicebox1 h1{
+    padding-bottom: 3%;
+  }
 }
 .ourruningproject h2 {
   padding-top: 10%;
@@ -370,7 +393,7 @@ iframe{
 }
 @media(min-width:750px){
   .ourruningproject{
-    padding: 10%;
+    padding: 10% 10% 0% 10%;
     display: flex;
     justify-content: center;
   }
@@ -421,6 +444,10 @@ iframe{
   background:hsl(22, 73%, 47%);
   border-radius: 5px;
   box-shadow:  0 3px 8px hsl(22, 73%, 37%);
+}
+.whychooseuslink:hover{
+  background-color: hsl(22, 73%, 67%);
+  color: hsl(0, 0%, 15%);
 }
 @media(min-width:750px){
   .whychooseusbox2 h1 {
@@ -522,5 +549,5 @@ textarea{
 .copyright p{
   font-size: 10px;
   padding-top: 3%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
